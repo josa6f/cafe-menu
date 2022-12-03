@@ -3,5 +3,22 @@ h1, h2, p {
 }
 
 body {
-    background-color: brown;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+.menu {   /*selector de clase*/
+    width: 80%;
+    background-color: burlywood;
+    margin-right: auto;
+    margin-left: auto; /*el margen es del objeto hacia afuera*/
+}
+.flavor {
+    text-align: left;
+    width: 75%;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.item p {
+    display: inline-block; /*hace que los elementos se pongan en la misma linea*/
 }
