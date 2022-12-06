@@ -1,24 +1,39 @@
-h1, h2, p {
+h1, h2, p{
     text-align: center;
 }
 
-body {
+body{
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
 }
-.menu {   /*selector de clase*/
+.menu{   /*selector de clase*/
     width: 80%;
     background-color: burlywood;
     margin-right: auto;
     margin-left: auto; /*el margen es del objeto hacia afuera*/
+    padding: 20px;  /*padding es el espacio entre el borde y el contenido*/
+    max-width: 500px; /*ancho maximo*/
 }
-.flavor {
+.flavor, .dessert{
     text-align: left;
     width: 75%;
 }
-.price {
+.price{
     text-align: right;
     width: 25%;
 }
-.item p {
+.item p{
     display: inline-block; /*hace que los elementos se pongan en la misma linea*/
+}
+h1, h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.established{
+    font-style: italic;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 30px;
 }
