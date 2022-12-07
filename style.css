@@ -5,6 +5,7 @@ h1, h2, p{
 body{
     background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     font-family: sans-serif;
+    padding: 20px;
 }
 .menu{   /*selector de clase*/
     width: 80%;
@@ -24,6 +25,9 @@ body{
 }
 .item p{
     display: inline-block; /*hace que los elementos se pongan en la misma linea*/
+    margin-top: 5px; /*margen entre los elementos*/
+    margin-bottom: 5px;
+    font-size: 18px; 
 }
 h1, h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -33,7 +37,42 @@ h1, h2{
 }
 h1{
     font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 h2{
     font-size: 30px;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+/*FOOTER*/
+footer{
+    font-size: 14px;
+}
+.address{
+    margin-bottom: 5px;
+}
+img{
+    display: block; /*para que el elemento se comporte como bloque*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+a{
+    color: black;
+}
+a:visited{ /*se utiliza este psudo-selector, despues de que se dio click al link*/
+    color: black;
+}
+a:hover{  /*se utiliza este pseudo-selector, cuando pasas el cursor en el link*/
+    color: brown;
+}
+a:active{ /* se utiliza este pseudo-selector, cuando se da click en el lick*/
+    color: brown;
 }
